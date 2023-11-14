@@ -74,6 +74,12 @@ export class Account extends EventEmitter {
     client: {
       deleteClient: jest.fn(),
     },
+    self: {
+      putSupportedProtocols: jest.fn(),
+    },
+    user: {
+      getUserSupportedProtocols: jest.fn(),
+    },
   };
 }
 
