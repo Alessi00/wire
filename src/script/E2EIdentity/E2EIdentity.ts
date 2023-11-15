@@ -129,6 +129,7 @@ class E2EIHandler {
       this.currentStep = E2EIHandlerStep.ENROLL;
       this.showLoadingMessage();
       let oAuthIdToken: string | undefined;
+      let oAuthRefreshToken: string | undefined;
 
       // If the enrollment is in progress, we need to get the id token from the oidc service, since oauth should have already been completed
       if (this.core.service?.e2eIdentity?.isEnrollmentInProgress()) {
@@ -138,6 +139,11 @@ class E2EIHandler {
           throw new Error('Received no user data from OIDC service');
         }
         oAuthIdToken = userData?.id_token;
+        oAuthRefreshToken = userData?.refresh_token;
+
+        if (oAuthRefreshToken) {
+          OIDCServiceStore.store.refreshToken(oAuthRefreshToken);
+        }
       }
 
       const data = await this.core.enrollE2EI(

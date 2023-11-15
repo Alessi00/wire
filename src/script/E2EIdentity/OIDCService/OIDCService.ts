@@ -40,6 +40,10 @@ export class OIDCService {
       response_type: 'code',
       scope: 'openid profile email',
       client_secret: clientSecret,
+      extraQueryParams: {
+        access_type: 'offline',
+        prompt: 'consent',
+      },
     };
 
     this.userManager = new UserManager(dexioConfig);
