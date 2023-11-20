@@ -22,24 +22,31 @@ import {UserManager, User, UserManagerSettings} from 'oidc-client-ts';
 import {clearKeysStartingWith} from 'Util/localStorage';
 
 interface OIDCServiceConfig {
+  oidcClient: {
+    id: string;
+    secret?: string;
+  };
   authorityUrl: string;
-  audience: string;
   redirectUri: string;
-  clientSecret?: string;
 }
 
 export class OIDCService {
   private userManager: UserManager;
 
   constructor(config: OIDCServiceConfig) {
-    const {authorityUrl, audience, redirectUri, clientSecret = ''} = config;
+    const {
+      oidcClient: {id, secret = ''},
+      authorityUrl,
+      redirectUri,
+    } = config;
+
     const dexioConfig: UserManagerSettings = {
       authority: authorityUrl,
-      client_id: audience,
+      client_id: id,
       redirect_uri: redirectUri,
       response_type: 'code',
-      scope: 'openid profile email',
-      client_secret: clientSecret,
+      scope: 'openid profile email offline_access',
+      client_secret: secret,
     };
 
     this.userManager = new UserManager(dexioConfig);
