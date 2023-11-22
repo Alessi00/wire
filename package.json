@@ -90,7 +90,7 @@
     "@types/sinon": "10.0.16",
     "@types/speakingurl": "13.0.3",
     "@types/underscore": "1.11.9",
-    "@types/webpack-env": "1.18.1",
+    "@types/webpack-env": "1.18.4",
     "@wireapp/copy-config": "2.1.7",
     "@wireapp/eslint-config": "3.0.4",
     "@wireapp/prettier-config": "0.6.3",
