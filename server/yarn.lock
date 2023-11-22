@@ -3929,13 +3929,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"maxmind@npm:4.3.10":
-  version: 4.3.10
-  resolution: "maxmind@npm:4.3.10"
+"maxmind@npm:4.3.17":
+  version: 4.3.17
+  resolution: "maxmind@npm:4.3.17"
   dependencies:
     mmdb-lib: 2.0.2
-    tiny-lru: 10.4.1
-  checksum: 7733caa051f12633340b71e54f3c28f9257f5b076337e11e2e8ca4a2e1093bc8e65d5753329bd5dde57182405a0486c03ad3c5d9755ca56a0b054c10fdd0178b
+    tiny-lru: 11.2.5
+  checksum: 25dbf89703de5d91acf235c160d5bf5758e16c9bb488d699e5796b1fcdc7f355a905bb98016ca45496c7b984820c8d147518b69f5724c86ff88f829236d74303
   languageName: node
   linkType: hard
 
@@ -5398,10 +5398,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tiny-lru@npm:10.4.1":
-  version: 10.4.1
-  resolution: "tiny-lru@npm:10.4.1"
-  checksum: ec2ce11278ff5ecd094823d9d6fcc16fe0aa250bf25cb533d40b997452a113a9ecd9cccbf503ac459a17bb812d94c5ef05cbdfe94b5b8ad03d7cf4fadb78a905
+"tiny-lru@npm:11.2.5":
+  version: 11.2.5
+  resolution: "tiny-lru@npm:11.2.5"
+  checksum: faced7e5b11936d83b40fb743d1630a52da9f7f7341d6656c139bdea76726bff2318f9b30a722140eec2885ea8bc5ed6507ed5a1acba0fbbe88f2b8fa3660dd3
   languageName: node
   linkType: hard
 
@@ -5717,7 +5717,7 @@ __metadata:
     http-status-codes: 2.2.0
     jest: 29.7.0
     logdown: 3.3.1
-    maxmind: 4.3.10
+    maxmind: 4.3.17
     nocache: 4.0.0
     opn: 6.0.0
     pm2: 5.3.0
