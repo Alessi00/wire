@@ -4386,12 +4386,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/adm-zip@npm:0.5.1":
-  version: 0.5.1
-  resolution: "@types/adm-zip@npm:0.5.1"
+"@types/adm-zip@npm:0.5.5":
+  version: 0.5.5
+  resolution: "@types/adm-zip@npm:0.5.5"
   dependencies:
     "@types/node": "*"
-  checksum: 874eaa30f89e50d744c77fd345112a12316135f2a3e259f6958fb7687d149551f96a7df82803aed243dcfb94b17d6a3bb37883e03533ee58295d1ee018c74f86
+  checksum: 808c25b8a1c2e1c594cf9b1514e7953105cf96e19e38aa7dc109ff2537bda7345b950ef1f4e54a6e824e5503e29d24b0ff6d0aa1ff9bd4afb79ef0ef2df9ebab
   languageName: node
   linkType: hard
 
@@ -18540,7 +18540,7 @@ __metadata:
     "@formatjs/cli": 6.1.5
     "@koush/wrtc": 0.5.3
     "@testing-library/react": 14.0.0
-    "@types/adm-zip": 0.5.1
+    "@types/adm-zip": 0.5.5
     "@types/dexie-batch": 0.4.3
     "@types/eslint": ^8
     "@types/fs-extra": 11.0.2
