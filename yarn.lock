@@ -5422,19 +5422,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wireapp/copy-config@npm:2.1.7":
-  version: 2.1.7
-  resolution: "@wireapp/copy-config@npm:2.1.7"
+"@wireapp/copy-config@npm:2.1.12":
+  version: 2.1.12
+  resolution: "@wireapp/copy-config@npm:2.1.12"
   dependencies:
-    axios: 1.5.0
+    axios: 1.6.2
     copy: 0.3.2
-    cosmiconfig: 8.3.5
+    cosmiconfig: 8.3.6
     fs-extra: 11.1.0
     jszip: 3.10.1
     logdown: 3.3.1
   bin:
     copy-config: lib/cli.js
-  checksum: 96723dc3a27130c89606defabc64b4c2b19e01dd9dd618cac2ae23c1d0a88f712c4995c784e7ef9d6b2716821a3aa83ea606214cd12b4b1ba5037d32b8b6337c
+  checksum: 7dc799cd8b80cdfc8b5dffcf07c53f2e6ebeecd03f8fe24eb5532c8318bdeb2f4f87e4e68a7cf4d54e4ac721243321fbda517215e72f609fce74d4c73967bd1f
   languageName: node
   linkType: hard
 
@@ -6329,6 +6329,17 @@ __metadata:
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
   checksum: e7405a5dbbea97760d0e6cd58fecba311b0401ddb4a8efbc4108f5537da9b3f278bde566deb777935a960beec4fa18e7b8353881f2f465e4f2c0e949fead35be
+  languageName: node
+  linkType: hard
+
+"axios@npm:1.6.2":
+  version: 1.6.2
+  resolution: "axios@npm:1.6.2"
+  dependencies:
+    follow-redirects: ^1.15.0
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: 4a7429e2b784be0f2902ca2680964391eae7236faa3967715f30ea45464b98ae3f1c6f631303b13dfe721b17126b01f486c7644b9ef276bfc63112db9fd379f8
   languageName: node
   linkType: hard
 
@@ -7369,9 +7380,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:8.3.5":
-  version: 8.3.5
-  resolution: "cosmiconfig@npm:8.3.5"
+"cosmiconfig@npm:8.3.6":
+  version: 8.3.6
+  resolution: "cosmiconfig@npm:8.3.6"
   dependencies:
     import-fresh: ^3.3.0
     js-yaml: ^4.1.0
@@ -7382,7 +7393,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: c6e44bb3cabf268b70049e7bd4ee8ecf00068854e53cbc32f9104794927ef406817f9e64e1c4949bd10776b604c01f7b50674336fcd2d5b9efc4cf8277fdf025
+  checksum: dc339ebea427898c9e03bf01b56ba7afbac07fc7d2a2d5a15d6e9c14de98275a9565da949375aee1809591c152c0a3877bb86dbeaf74d5bd5aaa79955ad9e7a0
   languageName: node
   linkType: hard
 
@@ -18568,7 +18579,7 @@ __metadata:
     "@types/webpack-env": 1.18.1
     "@wireapp/avs": 9.4.18
     "@wireapp/commons": 5.2.1
-    "@wireapp/copy-config": 2.1.7
+    "@wireapp/copy-config": 2.1.12
     "@wireapp/core": 42.4.0
     "@wireapp/eslint-config": 3.0.4
     "@wireapp/lru-cache": 3.8.1
