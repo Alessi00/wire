@@ -7343,10 +7343,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.32.2":
-  version: 3.32.2
-  resolution: "core-js@npm:3.32.2"
-  checksum: d6fac7e8eb054eefc211c76cd0a0ff07447a917122757d085f469f046ec888d122409c7db1a9601c3eb5fa767608ed380bcd219eace02bdf973da155680edeec
+"core-js@npm:3.34.0":
+  version: 3.34.0
+  resolution: "core-js@npm:3.34.0"
+  checksum: 26b0d103716b33fc660ee8737da7bc9475fbc655f93bbf1360ab692966449d18f2fc393805095937283db9f919ca2aa5c88d86d16f2846217983ad7da707e31e
   languageName: node
   linkType: hard
 
@@ -18587,7 +18587,7 @@ __metadata:
     beautiful-react-hooks: ^5.0.0
     classnames: 2.3.2
     copy-webpack-plugin: 11.0.0
-    core-js: 3.32.2
+    core-js: 3.34.0
     countly-sdk-web: 23.6.0
     cross-env: 7.0.3
     cspell: 7.3.6
