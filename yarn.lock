@@ -7043,13 +7043,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "clsx@npm:1.2.1"
-  checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
-  languageName: node
-  linkType: hard
-
 "co@npm:^4.6.0":
   version: 4.6.0
   resolution: "co@npm:4.6.0"
@@ -8378,14 +8371,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-picker-react@npm:^4.5.1":
-  version: 4.5.1
-  resolution: "emoji-picker-react@npm:4.5.1"
-  dependencies:
-    clsx: ^1.2.1
+"emoji-picker-react@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "emoji-picker-react@npm:4.6.0"
   peerDependencies:
     react: ">=16"
-  checksum: aa34bbf11772d7b15831b33a2340743f5e4f4984925d04576cff7a9e9c927c94a2e890f76de3099e6c6a072a780c04b2ceb2db1f076e8183a2fb77b86e845524
+  checksum: 90cea4fc1b41100c405144e63e54e0614224045030a4beec8fb780f58528a30e69e2a1a7a95b37314003284878d90374161e81094a77b0e2c3bddbd6b686ae74
   languageName: node
   linkType: hard
 
@@ -18598,7 +18589,7 @@ __metadata:
     dexie-batch: 0.4.3
     dotenv: 16.3.1
     dpdm: 3.14.0
-    emoji-picker-react: ^4.5.1
+    emoji-picker-react: ^4.6.0
     eslint: ^8.49.0
     eslint-plugin-prettier: ^5.0.0
     fake-indexeddb: 4.0.2
