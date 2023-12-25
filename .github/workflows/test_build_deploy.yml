@@ -334,7 +334,7 @@ jobs:
 
     steps:
       - name: Delete WebApp artifacts
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v4
         with:
           failOnError: false
           name: |
