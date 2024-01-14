@@ -10,7 +10,7 @@
     "@wireapp/react-ui-kit": "9.9.5",
     "@wireapp/store-engine-dexie": "2.1.6",
     "@wireapp/store-engine-sqleet": "1.8.9",
-    "@wireapp/webapp-events": "0.18.3",
+    "@wireapp/webapp-events": "0.20.1",
     "amplify": "https://github.com/wireapp/amplify#head=master",
     "beautiful-react-hooks": "^5.0.0",
     "classnames": "2.3.2",
