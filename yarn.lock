@@ -16517,10 +16517,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"snabbdom@npm:3.5.1":
-  version: 3.5.1
-  resolution: "snabbdom@npm:3.5.1"
-  checksum: 8f3512c3e1c89deda0db4a185012dc6929a64b46c8ba44e5c7ed51d77c13d389a3605f5914af2c158d9f4a8c23b7face831d9802277fffb345a6fa1f1e330427
+"snabbdom@npm:3.6.0":
+  version: 3.6.0
+  resolution: "snabbdom@npm:3.6.0"
+  checksum: 47722a8ca39d96a830c84b5b98ae891433112d3b9267ac9471fb0e894ce9d753f3e6c216b423073828c1b3dc839208e48855b8e9daf836e87c9b84e9dbec0160
   languageName: node
   linkType: hard
 
@@ -18656,7 +18656,7 @@ __metadata:
     seedrandom: ^3.0.5
     simple-git: 3.19.1
     sinon: 15.2.0
-    snabbdom: 3.5.1
+    snabbdom: 3.6.0
     speakingurl: 14.0.1
     style-loader: ^3.3.3
     stylelint: ^15

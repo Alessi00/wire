@@ -139,7 +139,7 @@
     "seedrandom": "^3.0.5",
     "simple-git": "3.19.1",
     "sinon": "15.2.0",
-    "snabbdom": "3.5.1",
+    "snabbdom": "3.6.0",
     "style-loader": "^3.3.3",
     "stylelint": "^15",
     "stylelint-config-idiomatic-order": "9.0.0",
