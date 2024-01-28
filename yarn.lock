@@ -7043,13 +7043,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "clsx@npm:1.2.1"
-  checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
-  languageName: node
-  linkType: hard
-
 "co@npm:^4.6.0":
   version: 4.6.0
   resolution: "co@npm:4.6.0"
@@ -8378,14 +8371,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-picker-react@npm:^4.5.1":
-  version: 4.5.1
-  resolution: "emoji-picker-react@npm:4.5.1"
+"emoji-picker-react@npm:^4.7.10":
+  version: 4.7.10
+  resolution: "emoji-picker-react@npm:4.7.10"
   dependencies:
-    clsx: ^1.2.1
+    flairup: 0.0.35
   peerDependencies:
     react: ">=16"
-  checksum: aa34bbf11772d7b15831b33a2340743f5e4f4984925d04576cff7a9e9c927c94a2e890f76de3099e6c6a072a780c04b2ceb2db1f076e8183a2fb77b86e845524
+  checksum: a7c55ef8860d76fa642ef189840ca9d320064b1da4d96b8440c4c0f349d41e35d2f5b6ba36edf80ae970db87bdb0e5f13a2a4dd3a02041bf48587bb895b8eba7
   languageName: node
   linkType: hard
 
@@ -9596,6 +9589,13 @@ __metadata:
     locate-path: ^7.1.0
     path-exists: ^5.0.0
   checksum: 9a21b7f9244a420e54c6df95b4f6fc3941efd3c3e5476f8274eb452f6a85706e7a6a90de71353ee4f091fcb4593271a6f92810a324ec542650398f928783c280
+  languageName: node
+  linkType: hard
+
+"flairup@npm:0.0.35":
+  version: 0.0.35
+  resolution: "flairup@npm:0.0.35"
+  checksum: ad67c3b9c8e53e28b5ea8f4729592e23d277224c87f168302735ac6232351e44e8f5d48a049cba1fb9d8b0f072597c0d2c9b4bf490b65ead9a36335933afe9d6
   languageName: node
   linkType: hard
 
@@ -18598,7 +18598,7 @@ __metadata:
     dexie-batch: 0.4.3
     dotenv: 16.3.1
     dpdm: 3.14.0
-    emoji-picker-react: ^4.5.1
+    emoji-picker-react: ^4.7.10
     eslint: ^8.49.0
     eslint-plugin-prettier: ^5.0.0
     fake-indexeddb: 4.0.2
