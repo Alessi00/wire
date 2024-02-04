@@ -64,7 +64,7 @@
     "@faker-js/faker": "8.0.2",
     "@formatjs/cli": "6.1.5",
     "@koush/wrtc": "0.5.3",
-    "@testing-library/react": "14.0.0",
+    "@testing-library/react": "14.2.1",
     "@types/adm-zip": "0.5.1",
     "@types/dexie-batch": "0.4.3",
     "@types/eslint": "^8",
