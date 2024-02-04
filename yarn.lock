@@ -4595,13 +4595,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.5.5":
-  version: 29.5.5
-  resolution: "@types/jest@npm:29.5.5"
+"@types/jest@npm:29.5.12":
+  version: 29.5.12
+  resolution: "@types/jest@npm:29.5.12"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: 56e55cde9949bcc0ee2fa34ce5b7c32c2bfb20e53424aa4ff3a210859eeaaa3fdf6f42f81a3f655238039cdaaaf108b054b7a8602f394e6c52b903659338d8c6
+  checksum: 19b1efdeed9d9a60a81edc8226cdeae5af7479e493eaed273e01243891c9651f7b8b4c08fc633a7d0d1d379b091c4179bbaa0807af62542325fd72f2dd17ce1c
   languageName: node
   linkType: hard
 
@@ -18545,7 +18545,7 @@ __metadata:
     "@types/eslint": ^8
     "@types/fs-extra": 11.0.2
     "@types/generate-changelog": 1.8.1
-    "@types/jest": 29.5.5
+    "@types/jest": 29.5.12
     "@types/jquery": ^3
     "@types/js-cookie": 3.0.4
     "@types/jsdom": 21.1.3
