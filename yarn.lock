@@ -115,9 +115,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.22.15":
-  version: 7.22.15
-  resolution: "@babel/eslint-parser@npm:7.22.15"
+"@babel/eslint-parser@npm:7.23.10":
+  version: 7.23.10
+  resolution: "@babel/eslint-parser@npm:7.23.10"
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals": 5.1.1-v1
     eslint-visitor-keys: ^2.1.0
@@ -125,7 +125,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.11.0
     eslint: ^7.5.0 || ^8.0.0
-  checksum: efdc749164a40de1b68e3ed395f441dfb7864c85d0a2ee3e4bc4f06dd0b7f675acb9be97cdc9025b88b3e80d38749a2b30e392ce7f6a79313c3aaf82ba8ccd68
+  checksum: 81249edee14f95720044f393b5b0a681a230ac2bde3d656b0c55b1cec4c5cb99ce0584ef6acd2e5413acc7905daee1b2e1db8e3fab18a3a74c508098a584ec9a
   languageName: node
   linkType: hard
 
@@ -3019,14 +3019,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@es-joy/jsdoccomment@npm:~0.40.1":
-  version: 0.40.1
-  resolution: "@es-joy/jsdoccomment@npm:0.40.1"
+"@es-joy/jsdoccomment@npm:~0.42.0":
+  version: 0.42.0
+  resolution: "@es-joy/jsdoccomment@npm:0.42.0"
   dependencies:
-    comment-parser: 1.4.0
+    comment-parser: 1.4.1
     esquery: ^1.5.0
     jsdoc-type-pratt-parser: ~4.0.0
-  checksum: 6098394cd97ad0532dde4f3171980e700e4199c231969311efd2362c2b5a4eefa9d59a0bc1fe513afbb5cc456ef7633491a2984d64252e7bd8ebe22489120610
+  checksum: ea0b56ca8d7470cac4694669807e4b4bbf25389c220af483ea14455c31d4a9e0f6ef0b08f45b92eb8c401bb3d6f662b4b14da51f222b85d78b2b757372072652
   languageName: node
   linkType: hard
 
@@ -3065,6 +3065,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint/eslintrc@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@eslint/eslintrc@npm:2.1.4"
+  dependencies:
+    ajv: ^6.12.4
+    debug: ^4.3.2
+    espree: ^9.6.0
+    globals: ^13.19.0
+    ignore: ^5.2.0
+    import-fresh: ^3.2.1
+    js-yaml: ^4.1.0
+    minimatch: ^3.1.2
+    strip-json-comments: ^3.1.1
+  checksum: 10957c7592b20ca0089262d8c2a8accbad14b4f6507e35416c32ee6b4dbf9cad67dfb77096bbd405405e9ada2b107f3797fe94362e1c55e0b09d6e90dd149127
+  languageName: node
+  linkType: hard
+
 "@eslint/js@npm:8.48.0":
   version: 8.48.0
   resolution: "@eslint/js@npm:8.48.0"
@@ -3072,10 +3089,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.49.0":
-  version: 8.49.0
-  resolution: "@eslint/js@npm:8.49.0"
-  checksum: a6601807c8aeeefe866926ad92ed98007c034a735af20ff709009e39ad1337474243d47908500a3bde04e37bfba16bcf1d3452417f962e1345bc8756edd6b830
+"@eslint/js@npm:8.56.0":
+  version: 8.56.0
+  resolution: "@eslint/js@npm:8.56.0"
+  checksum: 5804130574ef810207bdf321c265437814e7a26f4e6fac9b496de3206afd52f533e09ec002a3be06cd9adcc9da63e727f1883938e663c4e4751c007d5b58e539
   languageName: node
   linkType: hard
 
@@ -3237,14 +3254,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@humanwhocodes/config-array@npm:^0.11.11":
-  version: 0.11.11
-  resolution: "@humanwhocodes/config-array@npm:0.11.11"
+"@humanwhocodes/config-array@npm:^0.11.13":
+  version: 0.11.14
+  resolution: "@humanwhocodes/config-array@npm:0.11.14"
   dependencies:
-    "@humanwhocodes/object-schema": ^1.2.1
-    debug: ^4.1.1
+    "@humanwhocodes/object-schema": ^2.0.2
+    debug: ^4.3.1
     minimatch: ^3.0.5
-  checksum: db84507375ab77b8ffdd24f498a5b49ad6b64391d30dd2ac56885501d03964d29637e05b1ed5aefa09d57ac667e28028bc22d2da872bfcd619652fbdb5f4ca19
+  checksum: 861ccce9eaea5de19546653bccf75bf09fe878bc39c3aab00aeee2d2a0e654516adad38dd1098aab5e3af0145bbcbf3f309bdf4d964f8dab9dcd5834ae4c02f2
   languageName: node
   linkType: hard
 
@@ -3259,6 +3276,13 @@ __metadata:
   version: 1.2.1
   resolution: "@humanwhocodes/object-schema@npm:1.2.1"
   checksum: a824a1ec31591231e4bad5787641f59e9633827d0a2eaae131a288d33c9ef0290bd16fda8da6f7c0fcb014147865d12118df10db57f27f41e20da92369fcb3f1
+  languageName: node
+  linkType: hard
+
+"@humanwhocodes/object-schema@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@humanwhocodes/object-schema@npm:2.0.2"
+  checksum: 2fc11503361b5fb4f14714c700c02a3f4c7c93e9acd6b87a29f62c522d90470f364d6161b03d1cc618b979f2ae02aed1106fd29d302695d8927e2fc8165ba8ee
   languageName: node
   linkType: hard
 
@@ -4088,6 +4112,13 @@ __metadata:
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
   checksum: 6ad6a00fc4f2f2cfc6bff76fb1d88b8ee20bc0601e18ebb01b6d4be583733a860239a521a7fbca73b612e66705078809483549d2b18f370eb346c5155c8e4a0f
+  languageName: node
+  linkType: hard
+
+"@pkgr/core@npm:^0.1.0":
+  version: 0.1.1
+  resolution: "@pkgr/core@npm:0.1.1"
+  checksum: 6f25fd2e3008f259c77207ac9915b02f1628420403b2630c92a07ff963129238c9262afc9e84344c7a23b5cc1f3965e2cd17e3798219f5fd78a63d144d3cceba
   languageName: node
   linkType: hard
 
@@ -5180,6 +5211,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ungap/structured-clone@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@ungap/structured-clone@npm:1.2.0"
+  checksum: 4f656b7b4672f2ce6e272f2427d8b0824ed11546a601d8d5412b9d7704e83db38a8d9f402ecdf2b9063fc164af842ad0ec4a55819f621ed7e7ea4d1efcc74524
+  languageName: node
+  linkType: hard
+
 "@webassemblyjs/ast@npm:1.11.6, @webassemblyjs/ast@npm:^1.11.5":
   version: 1.11.6
   resolution: "@webassemblyjs/ast@npm:1.11.6"
@@ -5484,9 +5522,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wireapp/eslint-config@npm:3.0.4":
-  version: 3.0.4
-  resolution: "@wireapp/eslint-config@npm:3.0.4"
+"@wireapp/eslint-config@npm:3.0.6":
+  version: 3.0.6
+  resolution: "@wireapp/eslint-config@npm:3.0.6"
   dependencies:
     "@types/eslint": ^8
     "@types/prettier": ^3
@@ -5501,13 +5539,13 @@ __metadata:
     eslint-plugin-import: ^2.26.0
     eslint-plugin-jest: ^27.1.4
     eslint-plugin-jest-dom: ^5.0.2
-    eslint-plugin-jsdoc: ^46.2.3
+    eslint-plugin-jsdoc: ^48.0.2
     eslint-plugin-jsx-a11y: ^6.6.1
     eslint-plugin-no-unsanitized: ^4.0.1
     eslint-plugin-prettier: ^5
     eslint-plugin-react: ^7.31.10
     eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-simple-import-sort: ^10.0.0
+    eslint-plugin-simple-import-sort: ^12.0.0
     eslint-plugin-testing-library: ^6.0.0
     eslint-plugin-unused-imports: ^3
     prettier: ^3
@@ -5515,7 +5553,7 @@ __metadata:
   peerDependencies:
     eslint: ^8
     prettier: ^3
-  checksum: 31d1652961c9155b72e1bb82db65376ccdd28306f3f6743604c242427d883f37a7450f3cab3bc91a9c8b4e137eabf9ce171d076ebeebced4dd31e0dcf9963505
+  checksum: 1db416ac6ad1bd0d3b3afe606a17572ecc5380d268c195ff48f96a89d9760f58833a46e7fd166e4993d46f09ace7933b615df5a1068ba94810f0474fa62e2b83
   languageName: node
   linkType: hard
 
@@ -7210,10 +7248,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"comment-parser@npm:1.4.0":
-  version: 1.4.0
-  resolution: "comment-parser@npm:1.4.0"
-  checksum: e086da3b14af9455177f1ab801bc54de9139a77fcef55dbfb751ae68d687ac83b0effb83d113ccf8cd217d9d93ce2b472002953cac342092a3fadfb9f5cd8e38
+"comment-parser@npm:1.4.1":
+  version: 1.4.1
+  resolution: "comment-parser@npm:1.4.1"
+  checksum: e0f6f60c5139689c4b1b208ea63e0730d9195a778e90dd909205f74f00b39eb0ead05374701ec5e5c29d6f28eb778cd7bc41c1366ab1d271907f1def132d6bf1
   languageName: node
   linkType: hard
 
@@ -7909,7 +7947,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:4.3.4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
+"debug@npm:4, debug@npm:4.3.4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -8851,22 +8889,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:^46.2.3":
-  version: 46.5.0
-  resolution: "eslint-plugin-jsdoc@npm:46.5.0"
+"eslint-plugin-jsdoc@npm:^48.0.2":
+  version: 48.1.0
+  resolution: "eslint-plugin-jsdoc@npm:48.1.0"
   dependencies:
-    "@es-joy/jsdoccomment": ~0.40.1
+    "@es-joy/jsdoccomment": ~0.42.0
     are-docs-informative: ^0.0.2
-    comment-parser: 1.4.0
+    comment-parser: 1.4.1
     debug: ^4.3.4
     escape-string-regexp: ^4.0.0
     esquery: ^1.5.0
     is-builtin-module: ^3.2.1
-    semver: ^7.5.4
-    spdx-expression-parse: ^3.0.1
+    semver: ^7.6.0
+    spdx-expression-parse: ^4.0.0
   peerDependencies:
-    eslint: ^7.0.0 || ^8.0.0
-  checksum: 6e182b25e136250cd0bde076bdb051d4e82efc50c20f99cb436aa136a49769ec44a2346df384deba399ca8f303f9ae3be80e21e546d0e921b23f9a0c6330e32e
+    eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
+  checksum: 008f64fd89e53b032dfb4f3e7fcd17f1d109cf36d4f2c6873c329be27529e612272b2af49f9165b6d7bac3cef897b1de52abb2bb8f22f8d9969fafd9a118e606
   languageName: node
   linkType: hard
 
@@ -8905,7 +8943,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^5, eslint-plugin-prettier@npm:^5.0.0":
+"eslint-plugin-prettier@npm:^5":
   version: 5.0.0
   resolution: "eslint-plugin-prettier@npm:5.0.0"
   dependencies:
@@ -8921,6 +8959,26 @@ __metadata:
     eslint-config-prettier:
       optional: true
   checksum: 84e88744b9050f2d5ef31b94e85294dda16f3a53c2449f9d33eac8ae6264889b459bf35a68e438fb6b329c2a1d6491aac4bfa00d86317e7009de3dad0311bec6
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-prettier@npm:^5.1.3":
+  version: 5.1.3
+  resolution: "eslint-plugin-prettier@npm:5.1.3"
+  dependencies:
+    prettier-linter-helpers: ^1.0.0
+    synckit: ^0.8.6
+  peerDependencies:
+    "@types/eslint": ">=8.0.0"
+    eslint: ">=8.0.0"
+    eslint-config-prettier: "*"
+    prettier: ">=3.0.0"
+  peerDependenciesMeta:
+    "@types/eslint":
+      optional: true
+    eslint-config-prettier:
+      optional: true
+  checksum: eb2a7d46a1887e1b93788ee8f8eb81e0b6b2a6f5a66a62bc6f375b033fc4e7ca16448da99380be800042786e76cf5c0df9c87a51a2c9b960ed47acbd7c0b9381
   languageName: node
   linkType: hard
 
@@ -8959,12 +9017,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-simple-import-sort@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "eslint-plugin-simple-import-sort@npm:10.0.0"
+"eslint-plugin-simple-import-sort@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "eslint-plugin-simple-import-sort@npm:12.0.0"
   peerDependencies:
     eslint: ">=5.0.0"
-  checksum: 23221ff63f80f9c52da807d388ee8a51bc36a3b73345f60ec886e7973c28d75eb1d1e47f7f2916a7c1f94a1b5037b1450356a64a8fbd58096fd6bee57c6e3e48
+  checksum: 1b97055a9e8782099a788d030d3ceb03729bd7c9fe145eb617e5857c8c429d3124f1926621f4a363e1f2fad23037285b5b43ee01c6597eedb5f19b1d2f50604b
   languageName: node
   linkType: hard
 
@@ -9082,17 +9140,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.49.0":
-  version: 8.49.0
-  resolution: "eslint@npm:8.49.0"
+"eslint@npm:^8.56.0":
+  version: 8.56.0
+  resolution: "eslint@npm:8.56.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.6.1
-    "@eslint/eslintrc": ^2.1.2
-    "@eslint/js": 8.49.0
-    "@humanwhocodes/config-array": ^0.11.11
+    "@eslint/eslintrc": ^2.1.4
+    "@eslint/js": 8.56.0
+    "@humanwhocodes/config-array": ^0.11.13
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
+    "@ungap/structured-clone": ^1.2.0
     ajv: ^6.12.4
     chalk: ^4.0.0
     cross-spawn: ^7.0.2
@@ -9125,7 +9184,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 4dfe257e1e42da2f9da872b05aaaf99b0f5aa022c1a91eee8f2af1ab72651b596366320c575ccd4e0469f7b4c97aff5bb85ae3323ebd6a293c3faef4028b0d81
+  checksum: 883436d1e809b4a25d9eb03d42f584b84c408dbac28b0019f6ea07b5177940bf3cca86208f749a6a1e0039b63e085ee47aca1236c30721e91f0deef5cc5a5136
   languageName: node
   linkType: hard
 
@@ -16336,6 +16395,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.6.0":
+  version: 7.6.0
+  resolution: "semver@npm:7.6.0"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 7427f05b70786c696640edc29fdd4bc33b2acf3bbe1740b955029044f80575fc664e1a512e4113c3af21e767154a94b4aa214bf6cd6e42a1f6dba5914e0b208c
+  languageName: node
+  linkType: hard
+
 "serialize-javascript@npm:^4.0.0":
   version: 4.0.0
   resolution: "serialize-javascript@npm:4.0.0"
@@ -16640,13 +16710,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"spdx-expression-parse@npm:^3.0.0, spdx-expression-parse@npm:^3.0.1":
+"spdx-expression-parse@npm:^3.0.0":
   version: 3.0.1
   resolution: "spdx-expression-parse@npm:3.0.1"
   dependencies:
     spdx-exceptions: ^2.1.0
     spdx-license-ids: ^3.0.0
   checksum: a1c6e104a2cbada7a593eaa9f430bd5e148ef5290d4c0409899855ce8b1c39652bcc88a725259491a82601159d6dc790bedefc9016c7472f7de8de7361f8ccde
+  languageName: node
+  linkType: hard
+
+"spdx-expression-parse@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "spdx-expression-parse@npm:4.0.0"
+  dependencies:
+    spdx-exceptions: ^2.1.0
+    spdx-license-ids: ^3.0.0
+  checksum: 936be681fbf5edeec3a79c023136479f70d6edb3fd3875089ac86cd324c6c8c81add47399edead296d1d0af17ae5ce88c7f88885eb150b62c2ff6e535841ca6a
   languageName: node
   linkType: hard
 
@@ -17203,6 +17283,16 @@ __metadata:
     "@pkgr/utils": ^2.3.1
     tslib: ^2.5.0
   checksum: 8a9560e5d8f3d94dc3cf5f7b9c83490ffa30d320093560a37b88f59483040771fd1750e76b9939abfbb1b5a23fd6dfbae77f6b338abffe7cae7329cd9b9bb86b
+  languageName: node
+  linkType: hard
+
+"synckit@npm:^0.8.6":
+  version: 0.8.8
+  resolution: "synckit@npm:0.8.8"
+  dependencies:
+    "@pkgr/core": ^0.1.0
+    tslib: ^2.6.2
+  checksum: 9ed5d33abb785f5f24e2531efd53b2782ca77abf7912f734d170134552b99001915531be5a50297aa45c5701b5c9041e8762e6cd7a38e41e2461c1e7fccdedf8
   languageName: node
   linkType: hard
 
@@ -18527,7 +18617,7 @@ __metadata:
   resolution: "wire-webapp@workspace:."
   dependencies:
     "@babel/core": 7.22.20
-    "@babel/eslint-parser": 7.22.15
+    "@babel/eslint-parser": 7.23.10
     "@babel/plugin-proposal-decorators": 7.22.15
     "@babel/preset-env": 7.22.20
     "@babel/preset-react": 7.22.15
@@ -18570,7 +18660,7 @@ __metadata:
     "@wireapp/commons": 5.2.1
     "@wireapp/copy-config": 2.1.7
     "@wireapp/core": 42.4.0
-    "@wireapp/eslint-config": 3.0.4
+    "@wireapp/eslint-config": 3.0.6
     "@wireapp/lru-cache": 3.8.1
     "@wireapp/prettier-config": 0.6.3
     "@wireapp/react-ui-kit": 9.9.5
@@ -18599,8 +18689,8 @@ __metadata:
     dotenv: 16.3.1
     dpdm: 3.14.0
     emoji-picker-react: ^4.5.1
-    eslint: ^8.49.0
-    eslint-plugin-prettier: ^5.0.0
+    eslint: ^8.56.0
+    eslint-plugin-prettier: ^5.1.3
     fake-indexeddb: 4.0.2
     generate-changelog: 1.8.0
     highlight.js: 11.8.0
